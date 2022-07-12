@@ -5,6 +5,11 @@
 
 ### Keylime Server
 
+*Important*: prior to installation, make sure that both server
+(verifier/registrar) and client (agent/tenant) images support the 
+same Keylime API version (e.g. 2.1).  Setups running different
+(incompatible) API versions on the server and client sides will fail.
+
 The recommended way to install software in CoreOS is to run it in
 containers.  In this installation we manage the containers using
 Podman.
